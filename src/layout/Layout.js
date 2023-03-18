@@ -23,7 +23,7 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <Fragment>
       <Head>
-        <title>Central India's Largest Technical Fest | {pageTitle}</title>
+        <title>MetaPortal | {pageTitle}</title>
       </Head>
       <ImageView />
       <VideoPopup />
