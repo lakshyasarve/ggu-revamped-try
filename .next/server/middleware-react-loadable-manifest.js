@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"index.js -> ../src/components/WaterHero":{"id":"index.js -> ../src/components/WaterHero","files":["static/chunks/src_components_WaterHero_js.js"]}}
