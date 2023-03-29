@@ -6,11 +6,11 @@ export default function Document() {
   return (
     <Html>
                 <Head/>
-                {/* <head>
-                    <style>
+                <head>
+                    {/* <style>
                         {loader}
-                    </style>
-                </head> */}
+                    </style> */}
+                </head>
                 <body>
                 {/* <div id={'globalLoader'}>
                      <div className="loader">

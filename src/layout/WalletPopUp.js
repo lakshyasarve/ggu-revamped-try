@@ -14,48 +14,47 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
         </a>
         <div className="walletbox">
           <div className="title_holder">
-            <h3>Connect Wallet</h3>
+            <h3>Connect Us Now</h3>
             <p>
-              Connect with one of our available wallet providers or create a new
-              one.
+              You can Connect with us using our Social Media
             </p>
           </div>
           <div className="list_holder">
             <ul className="metaportal_fn_items">
               <li>
                 <div className="item">
-                  <a href="#" />
+                  <a href="https://www.facebook.com/equilibrio.fest" />
                   <span className="icon">
-                    <img src="/img/wallet/metamask.png" alt="" />
+                    <img src="/img/social/facebook.png" alt="" />
                   </span>
-                  <span className="text">Metamask</span>
+                  <span className="text">Facebook</span>
                 </div>
               </li>
               <li>
                 <div className="item">
-                  <a href="#" />
+                  <a href="https://www.youtube.com/@EquilibrioTechfestGGVBilaspur" />
                   <span className="icon">
-                    <img src="/img/wallet/coinbase.png" alt="" />
+                    <img src="/img/social/youtube.png" alt="" />
                   </span>
-                  <span className="text">Coinbase</span>
+                  <span className="text">Youtube</span>
                 </div>
               </li>
               <li>
                 <div className="item">
-                  <a href="#" />
+                  <a href="https://www.linkedin.com/company/equilibrio-ggv/" />
                   <span className="icon">
-                    <img src="/img/wallet/walletconnect.png" alt="" />
+                    <img src="/img/social/linkedin.png" alt="" />
                   </span>
-                  <span className="text">WalletConnect</span>
+                  <span className="text">Linkedin</span>
                 </div>
               </li>
               <li>
                 <div className="item">
-                  <a href="#" />
+                  <a href="mailto:solasta.ggv@gmail.com" />
                   <span className="icon">
-                    <img src="/img/wallet/venly.png" alt="" />
+                    <img src="/img/social/gmail.png" alt="" />
                   </span>
-                  <span className="text">Venly</span>
+                  <span className="text">Email</span>
                 </div>
               </li>
             </ul>

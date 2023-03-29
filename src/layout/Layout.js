@@ -20,10 +20,11 @@ const Layout = ({ children, pageTitle }) => {
     dataBgImg();
   }, []);
 
+
   return (
     <Fragment>
       <Head>
-        <title>MetaPortal | {pageTitle}</title>
+        <title>Equilibrio | Central India's Largest Fest</title>
       </Head>
       <ImageView />
       <VideoPopup />

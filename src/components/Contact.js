@@ -13,16 +13,11 @@ const Contact = () => {
           <ul>
             <li>
               <div className="item">
-                <p>
-                  Duis suscipit egestas ullamcorper. Cras porta nulla et
-                  tristique pellentesque. Praesent finibus mauris eu
-                  sollicitudin interdum. Morbi et blandit quam. Donec vitae
-                  massa purus. Curabitur nunc mauris, iaculis a nibh at,
-                  ultricies sodales dolor.
-                </p>
-                <p>
-                  Curabitur pharetra velit eget dignissim varius. In vulputate
-                  elit at tortor pellentesque, non pulvinar neque consequat.
+              <p>
+                  Thank you for visiting our website. We're always happy to hear from our visitors, whether it's a question, feedback, or just to say hello.
+                  We aim to respond to all inquiries within 24 hours. If you're experiencing an urgent issue outside of our regular hours, please leave a voicemail or send us an email, and we'll get back to you as soon as possible.
+                  We also invite you to connect with us on social media. You can follow us on Twitter, Facebook, Instagram and LinkedIn to stay up to date with our latest news and updates.
+
                 </p>
               </div>
             </li>
@@ -34,8 +29,8 @@ const Contact = () => {
                 </h3>
                 <h4 className="lable">Email</h4>
                 <h3>
-                  <a href="mailto:ggutechnical@gmail.com">
-                    ggutechnical@gmail.com
+                  <a href="mailto:solasta.ggv@gmail.com">
+                  solasta.ggv@gmail.com
                   </a>
                 </h3>
               </div>

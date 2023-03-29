@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { hero6Slider } from "../sliderProps";
+
 const About = () => {
   return (
     <section id="about">
@@ -179,9 +182,14 @@ export default About;
 export const About2 = () => (
   <section id="about2">
     <div className="container small">
-      <div className="fn_cs_shortabout">
+    <section id="full_slider">
+        <div className="fn_cs_full_slider">
+          <Swiper {...hero6Slider} className="swiper-container">
+            <div className="swiper-wrapper">
+              <SwiperSlide className="swiper-slide">
+              <div className="fn_cs_shortabout">
         <div className="about_left">
-          <h3 className="fn__maintitle" data-text="From The Desk">
+          <h3 className="fn__maintitle_about" data-text="From The Desk">
             From The Desk
           </h3>
           <div className="fn_cs_divider">
@@ -192,10 +200,9 @@ export const About2 = () => (
           </div>
           <div className="desc">
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
-            <p>
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+            EQUILIBRIO is one such event where we celebrate the innovative spirit of our students, who have worked hard to bring their ideas to life and showcase them to the world. Over the years, this fest has grown in size and scope. It has become a platform for the exchange of ideas, for networking and collaboration, and for learning from experts in various fields.
+                  With a wide range of events and activities planned, there is something for everyone. Whether anyone is interested in robotics, artificial intelligence, machine learning, or any other cutting-edge technology or any cultural event, they are sure to find something that will pique their interest.
+                  I wish all the participants the very best of luck, and I hope that this tech fest will be a memorable experience for everyone involved.
             </p>
           </div>
           <a
@@ -211,7 +218,136 @@ export const About2 = () => (
           <div className="abs_img" data-bg-img="/img/about/from_the_desk.webp" />
         </div>
       </div>
-      <div className="fn_cs_collection_info">
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+              <div className="fn_cs_shortabout">
+        <div className="about_left">
+          <h3 className="fn__maintitle_about" data-text="From The Desk">
+            From The Desk
+          </h3>
+          <div className="fn_cs_divider">
+            <div className="divider">
+              <span />
+              <span />
+            </div>
+          </div>
+          <div className="desc">
+            <p>
+            It is my pleasure to announce the upcoming college fest, and we are excited to invite you to participate in the event. As the faculty coordinator for this year's fest, I want to encourage all of you to showcase your talents, creativity, and passion for different activities.
+
+                The fest is a great platform to showcase your skills, compete with other students, and have fun with your peers. It is a perfect opportunity to explore new interests and build lasting relationships with other students.
+
+                We are planning to organize a variety of events, including cultural, sports, and technical competitions. We will also have guest lectures, workshops, and interactive sessions to provide you with an enriching experience.
+
+                We invite you to be a part of this year's fest and contribute to making it a grand success. We also request you to spread the word and encourage your fellow students to participate and make the most of this fantastic opportunity.
+                Looking forward to seeing you all at the fest!
+            </p>
+          </div>
+          <a
+            href="https://discord.com/"
+            className="metaportal_fn_button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>View Events</span>
+          </a>
+        </div>
+        <div className="about_right">
+          <div className="abs_img" data-bg-img="/img/about/registrar.webp" />
+        </div>
+      </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+              <div className="fn_cs_shortabout">
+        <div className="about_left">
+          <h3 className="fn__maintitle_about" data-text="From The Desk">
+            From The Desk
+          </h3>
+          <div className="fn_cs_divider">
+            <div className="divider">
+              <span />
+              <span />
+            </div>
+          </div>
+          <div className="desc">
+            <p>
+            Engineering is all about using science and technology to solve problems and create new solutions that can make life easier, safer, and more efficient. Innovation is what drives the engineering field forward and enables engineers to come up with creative and efficient solutions to complex problems.
+
+                The knowledge provided in the institutes is worth only when it can be turned into reality.  By embracing innovation, engineers can make a significant impact on society and help shape the future.
+
+                EQUILIBRIO is a platform where our students get a chance to showcase their creativity along with amusements. This fest will feature a variety of events, including tech exhibitions, interactive workshops, keynote speeches, and much more.
+                We also aim to provide attendees with an opportunity to experience and learn about new technology that they may not have been exposed to otherwise.
+                The best part of EQUILIBRIO 2023 is that it has something or the other for everyone irrespective of their fields.
+                We extend best of our wishes to all the participants. We heartily welcome all to EQUILIBRIO 2023.
+            </p>
+          </div>
+          <a
+            href="https://discord.com/"
+            className="metaportal_fn_button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>View Events</span>
+          </a>
+        </div>
+        <div className="about_right">
+          <div className="abs_img" data-bg-img="/img/about/dean.webp" />
+        </div>
+      </div>
+              </SwiperSlide>
+              
+            </div>
+          </Swiper>
+          <div className="slider_nav">
+            <a href="#" className="prev">
+              <span className="circle" />
+              <span className="icon">
+                <img src="/svg/down.svg" alt="" className="fn__svg" />
+              </span>
+              <span className="circle" />
+            </a>
+            <a href="#" className="next">
+              <span className="circle" />
+              <span className="icon">
+                <img src="/svg/down.svg" alt="" className="fn__svg" />
+              </span>
+              <span className="circle" />
+            </a>
+          </div>
+        </div>
+      </section>
+      {/* <div className="fn_cs_shortabout">
+        <div className="about_left">
+          <h3 className="fn__maintitle" data-text="From The Desk">
+            From The Desk
+          </h3>
+          <div className="fn_cs_divider">
+            <div className="divider">
+              <span />
+              <span />
+            </div>
+          </div>
+          <div className="desc">
+            <p>
+            EQUILIBRIO is one such event where we celebrate the innovative spirit of our students, who have worked hard to bring their ideas to life and showcase them to the world. Over the years, this fest has grown in size and scope. It has become a platform for the exchange of ideas, for networking and collaboration, and for learning from experts in various fields.
+                  With a wide range of events and activities planned, there is something for everyone. Whether anyone is interested in robotics, artificial intelligence, machine learning, or any other cutting-edge technology or any cultural event, they are sure to find something that will pique their interest.
+                  I wish all the participants the very best of luck, and I hope that this tech fest will be a memorable experience for everyone involved.
+            </p>
+          </div>
+          <a
+            href="https://discord.com/"
+            className="metaportal_fn_button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>View Events</span>
+          </a>
+        </div>
+        <div className="about_right">
+          <div className="abs_img" data-bg-img="/img/about/from_the_desk.webp" />
+        </div>
+      </div> */}
+      {/* <div className="fn_cs_collection_info">
         <h3 className="fn__gradient_title">50,000+</h3>
         <h3
           className="fn__maintitle upper"
@@ -225,13 +361,14 @@ export const About2 = () => (
           humour, or randomised words which {`don't`} look even slightly
           believable.
         </p>
-      </div>
+      </div> */}
     </div>
     <div className="fn_cs_video bg">
       <div className="abs_img" data-bg-img="/img/video/home_videooverlay_image.webp" />
+      
       <a
         className="popup-youtube"
-        href="https://www.youtube.com/embed/7e90gBu4pas"
+        href="https://www.youtube.com/watch?v=b9E5_GhMLuw&t=4s&ab_channel=Equilibrio-SOLASTA%2CGGVBilaspur"
       >
         <img src="/svg/play.svg" alt="" className="fn__svg" />
       </a>

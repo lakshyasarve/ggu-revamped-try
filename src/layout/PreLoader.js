@@ -1,5 +1,6 @@
 const PreLoader = () => {
   return (
+    <div id="loader-modern">
     <div className="metaportal_fn_preloader">
       <div className="loading-container">
         <div className="loading">
@@ -17,6 +18,7 @@ const PreLoader = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

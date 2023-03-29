@@ -47,11 +47,11 @@ const Header = ({ walletToggle, navigationToggle }) => {
                   <a className="creative_link">Sponsers</a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/#contact">
                   <a className="creative_link">Contact</a>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="wallet">
@@ -63,7 +63,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
               }}
               className="metaportal_fn_button wallet_opener"
             >
-              <span>Login</span>
+              <span>Contact</span>
             </a>
           </div>
         </div>

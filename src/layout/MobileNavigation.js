@@ -16,7 +16,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               <ul>
                 <li>
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/equilibrio.fest"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -25,7 +25,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 </li>
                 <li>
                   <a
-                    href="https://www.twitter.com/"
+                    href="https://twitter.com/equilibrioggv"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -34,16 +34,16 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.youtube.com/@EquilibrioTechfestGGVBilaspur"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    In.
+                    Yt.
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="https://www.linkedin.com/company/equilibrio-ggv/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -59,7 +59,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               className="metaportal_fn_button wallet_opener"
               onClick={() => walletToggle(true)}
             >
-              <span>Wallet</span>
+              <span>Contact</span>
             </a>
           </div>
         </div>
@@ -67,7 +67,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
           <div className="logo">
             <Link href="/">
               <a>
-                <img src="/img/logo.png" alt="" />
+                <img src="/img/logoEquilibrioWhite.png" alt="" />
               </a>
             </Link>
           </div>

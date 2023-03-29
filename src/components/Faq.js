@@ -3,38 +3,38 @@ import { useState } from "react";
 const Faq = () => {
   const faqs1 = [
     {
-      title: "What is Lorem Ipsum?",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "What is EQUILIBRIO?",
+      dec: "EQUILIBRIO is the annual technical festival held at Guru Ghasidas Vishwavidyalaya (A Central University), Bilaspur, Chhattisgarh. It is a technical extravagant platform where students get an opportunity to showcase their talent and celebrate youthism. The fest paves a path for the students to sharpen their skills and explore the dynamics of the technical world.",
     },
     {
-      title: "What is Lorem Ipsum?      ",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "What is SOLASTA?      ",
+      dec: "EQUILIBRIO-2023 presents SOLASTA- Luminosity in the Nature. The ultimate event experience that will leave you feeling energized, inspired, and connected. Solasta is a powerful word that evokes a sense of warmth and light, and that's exactly what this event will provide. Solasta is the perfect name for an event that brings people together to share ideas, network, and build relationships.",
     },
     {
-      title: "What is Lorem Ipsum?",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "What is the mode of conduction and the venue of events?",
+      dec: "The events are completely conducted in the offline mode and at the University campus itself.",
     },
     {
-      title: "What is Lorem Ipsum?",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "Where to catch the regular updates of EQUILIBRIO?",
+      dec: "Please follow our Instagram, Twitter, Facebook and LinkedIn under the name of Equilibrio for regular updates.",
     },
   ];
   const faqs2 = [
     {
-      title: "What is Lorem Ipsum?",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "What are the highlights of the fest?",
+      dec: "Celebrity Night, EDM Night, DJ Night, Socio-Cultural Events",
     },
     {
-      title: "What is Lorem Ipsum?",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "What are the stars of technical events?",
+      dec: "Roboterry, RoboSumo, Blind Coding, ErgoGenius, Aquabotics",
     },
     {
-      title: "What is Lorem Ipsum?",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "Where to reach out in case of query?",
+      dec: "For any queries contact us at equilibrio.office@gmail.com",
     },
     {
-      title: "What is Lorem Ipsum?",
-      dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim",
+      title: "How to register?",
+      dec: "You can register by navigating to the events section then clicking on Register Now",
     },
   ];
   const [active, setActive] = useState(`a0`);
@@ -82,16 +82,11 @@ const Faq = () => {
               </div>
             </div>
             <div className="desc">
-              <p>
-                Pellentesque eu ex iaculis, tempus ex eu, consectetur lectus.
-                Aenean nec iaculis est, a mattis turpis. Morbi posuere lorem id
-                risus luctus, luctus tristique enim luctus. Vivamus ut tincidunt
-                erat.
+            <p>
+              EQUILIBRIO presents SOLASTA- Luminosity in the Nature. It is the annual socio-cultural tech fest held at Guru Ghasidas Vishwavidyalaya (A Central University), Bilaspur Chhattisgarh. SOLASTA is a great platform where innovation meets technology and creativity turns into reality.
               </p>
               <p>
-                Nunc nec sollicitudin elit, ut pretium dui. Nulla facilisis
-                pulvinar odio ac suscipit. Quisque pretium, est id facilisis
-                luctus, magna lorem posuere velit.
+              It is a wonderful learning experience for everyone who wishes to explore and evolve in their particular field of interest. It aims at channeling passion and celebrating flair through various escapade events, skill-building workshops, ingenious products and bilateral talk-shows. 
               </p>
             </div>
           </div>

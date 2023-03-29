@@ -23,14 +23,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 01</span>
                     <div className="item_in">
-                      <p className="date">October 09, 2023</p>
-                      <h3 className="title">Technical Event</h3>
+                      <p className="date">31.03.2023</p>
+                      <h3 className="title">QR Code Quest CSE</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      QR Code Quest is a thrilling treasure hunt activity in which users scan QR codes posted in various places to uncover hints and work out riddles.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -39,14 +44,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 02</span>
                     <div className="item_in">
-                      <p className="date">October 17, 2023</p>
-                      <h3 className="title">Trading Event</h3>
+                      <p className="date">31.03.2023</p>
+                      <h3 className="title">Roboterry ECE</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      RoboTerry is a thrilling and exciting robotics event inspired by the popular cartoon characters Tom and Jerry.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -55,14 +65,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 03</span>
                     <div className="item_in">
-                      <p className="date">October 28, 2023</p>
-                      <h3 className="title">Marketing Event</h3>
+                      <p className="date">31.03.2023</p>
+                      <h3 className="title">Scriptify IT</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      The Scriptify is a fun and challenging event that helps participants improve their coding and typing skills while also testing their ability to perform under pressure.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -71,14 +86,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 04</span>
                     <div className="item_in">
-                      <p className="date">November 11, 2023</p>
-                      <h3 className="title">Business Meetup Event</h3>
+                      <p className="date">31.03.2023</p>
+                      <h3 className="title">Chem-e-Car CHEMICAL</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      Chem-e-car is an exciting competition where participants are required to create a car whose propulsion is driven by an exothermic reaction, or electricity, which is generated by the chemical reaction occurring inside the car.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -87,14 +107,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 05</span>
                     <div className="item_in">
-                      <p className="date">November 23, 2023</p>
-                      <h3 className="title">Startup Event</h3>
+                      <p className="date">31.03.2023</p>
+                      <h3 className="title">Hurdle Mania MECHANICAL</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      Hurdle Mania is one of the most awaited events of Mechatronic. The main task in the event is to construct a racing bot (wired/wireless).
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -103,14 +128,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 06</span>
                     <div className="item_in">
-                      <p className="date">December 02, 2023</p>
-                      <h3 className="title">Technical Event</h3>
+                      <p className="date">31.03.2023</p>
+                      <h3 className="title">RoboSoccer CHEMICAL + ECE</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      Introducing RoboSoccer event based on Football. Design a Soccer-bot with a pushing or hitting mechanism and score as many goals as you can.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -119,14 +149,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 07</span>
                     <div className="item_in">
-                      <p className="date">January 14, 2024</p>
-                      <h3 className="title">Technical Event</h3>
+                      <p className="date">01.04.2023</p>
+                      <h3 className="title">Ergo genius IPE-</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      Product Design with Ergonomics and Life Cycle Assessment Challenge. It’s objective is to design a product that prioritizes ergonomics and sustainability.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -135,14 +170,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 08</span>
                     <div className="item_in">
-                      <p className="date">January 28, 2024</p>
-                      <h3 className="title">Technical Event</h3>
+                      <p className="date">01.04.2023</p>
+                      <h3 className="title">Culvert CIVIL</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      Culvert CIVIL- Create a culvert out of a limited number of ice-cream sticks and glue. Make it bearable to lift some load in order to check its potential. Stronger and stable the foundation the nearer you get towards victory.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -151,14 +191,19 @@ const RoadMapSlider = () => {
                     <span className="icon" />
                     <span className="phase">Major Event 09</span>
                     <div className="item_in">
-                      <p className="date">February 12, 2024</p>
-                      <h3 className="title">Fun Activity Event</h3>
+                      <p className="date">01.04.2023</p>
+                      <h3 className="title">Valorant GAMING</h3>
                       <p className="desc">
-                        Morbi non dignissim erat, a blandit felis. Suspendisse
-                        nec lorem vel orci varius congue ut vitae est. Nam quis
-                        tempus nisl. Fusce posuere nibh a mi molestie, sit amet
-                        ornare lectus interdum.
+                      Valorant is a team-based first-person tactical hero shooter set in the near future. Players play as one of a set of Agents, characters based on several countries and cultures around the world.
                       </p>
+                      <a
+                        href="https://linktr.ee/EQUILIBRIO23"
+                        className="metaportal_fn_button event-button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <span>Register Now </span>
+                      </a>
                     </div>
                   </div>
                 </SwiperSlide>

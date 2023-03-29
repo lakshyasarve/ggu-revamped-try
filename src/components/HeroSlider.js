@@ -123,13 +123,6 @@ const HeroSlider = () => {
   return (
     <section id="home">
       <div className="container">
-        <h3
-          className="fn__maintitle big"
-          data-text="Meta Legends"
-          data-align="center"
-        >
-          Meta Legends
-        </h3>
         {/* Slider */}
         <div className="fn_cs_slider" data-responsive="on">
           <div className="slider_top">
@@ -139,7 +132,15 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/1.jpg" />
+                    <div className="img" data-bg-img="/img/studentCoordinator/student_image.webp" />
+                    <div className="title_holder">
+                    <h3 className="fn__maintitle upper" data-text="Yash Gupta">
+                      Yash Gupta
+                    </h3>
+                      <h3 className="fn_title">
+                        <a href="#">Overall Co-Ordinator</a>
+                      </h3>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -218,22 +219,7 @@ const HeroSlider = () => {
         </div>
         {/* !Slider */}
         {/* Description */}
-        <div className="fn_cs_desc">
-          <p>
-            Meta Legends represent a collection of 17,000 legends categorized by
-            level of rarity and generated with hundreds of elements. The Legends
-            are stored as ERC-721 tokens on the Ethereum blockchain and hosted
-            on IPFS.
-          </p>
-          <a
-            href="https://opensea.io/"
-            className="metaportal_fn_button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Buy On Opensea</span>
-          </a>
-        </div>
+        
         {/* !Description */}
       </div>
     </section>

@@ -10,7 +10,7 @@ const FunFacts = () => {
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={5000} />
+                  <Counter end={9999} />
                   <span className="suffix">+</span>
                 </h3>
                 <p>Registered Students</p>
@@ -21,7 +21,7 @@ const FunFacts = () => {
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={18} />
+                  <Counter end={10} />
                   <span className="suffix"/>
                 </h3>
                 <p>Years of Legacy</p>
@@ -32,7 +32,7 @@ const FunFacts = () => {
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={50} />
+                  <Counter end={32} />
                   <span className="suffix" >+</span>
                 </h3>
                 <p>Events</p>
@@ -43,7 +43,7 @@ const FunFacts = () => {
               <div className="item">
                 <h3 className="fn__gradient_title">
                   <span className="prefix" />
-                  <Counter end={7} />
+                  <Counter end={3} />
                   <span className="suffix">Lakh+</span>
                 </h3>
                 <p>Prize Money</p>

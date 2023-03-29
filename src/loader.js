@@ -8,7 +8,7 @@ display: block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: #1a121e;
     display: flex;
     left: 0,
     right: 0;
@@ -18,7 +18,7 @@ display: block;
     align-items: center;
 }
 .loader {
- --clr: #3498db;
+ --clr: #7000ff;
  /* color of spining  */
  width: 50px;
  height: 50px;

@@ -19,10 +19,10 @@ const WaterHero = () => {
                 About Us
               </h3>
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              EQUILIBRIO presents SOLASTA- Luminosity in the Nature. It is the annual socio-cultural tech fest held at Guru Ghasidas Vishwavidyalaya (A Central University), Bilaspur Chhattisgarh. SOLASTA is a great platform where innovation meets technology and creativity turns into reality.It is a wonderful learning experience for everyone who wishes to explore and evolve in their particular field of interest. It aims at channeling passion and celebrating flair through various escapade events, skill-building workshops, ingenious products and bilateral talk-shows.
               </p>
               <a
-                href="https://opensea.io/"
+                href="https://www.ggu.ac.in/"
                 className="metaportal_fn_button"
                 target="_blank"
                 rel="noreferrer"

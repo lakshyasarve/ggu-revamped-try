@@ -6,7 +6,7 @@ const Social = () => {
         <ul>
           <li>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/equilibrio.fest"
               target="_blank"
               rel="noreferrer"
             >
@@ -15,11 +15,11 @@ const Social = () => {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.linkedin.com/company/equilibrio-ggv/"
               target="_blank"
               rel="noreferrer"
             >
-              Instagram
+              Linkedin
             </a>
           </li>
         </ul>

@@ -151,9 +151,9 @@ const Collection = () => {
         </div>
         <div className="fn_cs_desc">
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute.
+          With Solasta, you can expect a dynamic and engaging event that will leave you feeling inspired and empowered. From keynote speakers to interactive workshops and networking opportunities, Solasta has something for everyone. You'll have the chance to learn from experts in your field, connect with peers, and explore new ideas and opportunities.
           </p>
-          <Link href="/collection">
+          <Link href="/events">
             <a className="metaportal_fn_button">
               <span>View Timeline of Events</span>
             </a>

@@ -32,6 +32,9 @@ const roadmapStep = (mySwiper, step, widthParts) => {
     case 768:
       viewBox = 1;
       break;
+      case 600:
+        viewBox = 1;
+        break;
     default:
       viewBox = 4;
   }
@@ -45,12 +48,15 @@ export const roadMapProps = {
     delay: 5000,
     disableOnInteraction: false,
   },
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 40,
   direction: "horizontal",
   loopAdditionalSlides: 10,
   watchSlidesProgress: true,
   breakpoints: {
+    600: {
+      slidesPerView: 1,
+    },
     768: {
       slidesPerView: 1,
     },
@@ -120,6 +126,33 @@ export const hero6Slider = {
   //   },
   // },
   slidesPerView: 1,
+  // direction: direction,
+  loopAdditionalSlides: 10,
+  watchSlidesProgress: true,
+};
+
+export const hero7Slider = {
+  loop: true,
+  speed: 1500,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".next",
+    prevEl: ".prev",
+  },
+  // effect: "creative",
+  // creativeEffect: {
+  //   prev: {
+  //     shadow: true,
+  //     translate: [0, 0, -400],
+  //   },
+  //   next: {
+  //     translate: ["100%", 0, 0],
+  //   },
+  // },
+  slidesPerView: 4,
   // direction: direction,
   loopAdditionalSlides: 10,
   watchSlidesProgress: true,

@@ -10,7 +10,6 @@ import dynamic from "next/dynamic";
 import StudentCordinators from "../src/components/StudentCordinators";
 import Faq from "../src/components/Faq";
 import HeroSection from "../src/components/HeroSection";
-
 import Head from 'next/head'
 import { lazy, Suspense } from "react"
 import { Canvas, useLoader } from "@react-three/fiber"
@@ -34,7 +33,19 @@ const Index = () => {
   return (
     <Layout pageTitle={"Home"}>
       <div className="globe something">
-        <div className="heading"><img src="/img/presenting_solasta.png" alt="" /></div>
+        <div className="hero-image"><img src="/img/presenting_solasta.png" alt="" /></div>
+        <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 4], fov: 50 }}>
+          <ambientLight intensity={0.7} />
+          <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
+          <Suspense fallback={null}>
+            <Model />
+            <Environment preset="city" />
+          </Suspense>
+          <OrbitControls autoRotate />
+        </Canvas>
+      </div>
+      <div className="globe-mobile">
+        <div className="hero-image-mobile"><img src="/img/solasta_mobile.png" alt="" /></div>
         <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 4], fov: 50 }}>
           <ambientLight intensity={0.7} />
           <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[10, 15, 10]} castShadow />
