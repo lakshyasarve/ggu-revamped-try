@@ -24,7 +24,7 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <Fragment>
       <Head>
-        <title>Equilibrio | Central India's Largest Fest</title>
+        <title>Equilibrio | Central India&apos;s Largest Fest</title>
       </Head>
       <ImageView />
       <VideoPopup />

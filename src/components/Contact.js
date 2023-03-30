@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Contact = () => {
   return (
     <section id="contact">
@@ -14,8 +16,8 @@ const Contact = () => {
             <li>
               <div className="item">
               <p>
-                  Thank you for visiting our website. We're always happy to hear from our visitors, whether it's a question, feedback, or just to say hello.
-                  We aim to respond to all inquiries within 24 hours. If you're experiencing an urgent issue outside of our regular hours, please leave a voicemail or send us an email, and we'll get back to you as soon as possible.
+                  Thank you for visiting our website. We&apos;re always happy to hear from our visitors, whether it&apos;s a question, feedback, or just to say hello.
+                  We aim to respond to all inquiries within 24 hours. If you&apos;re experiencing an urgent issue outside of our regular hours, please leave a voicemail or send us an email, and we&apos;ll get back to you as soon as possible.
                   We also invite you to connect with us on social media. You can follow us on Twitter, Facebook, Instagram and LinkedIn to stay up to date with our latest news and updates.
 
                 </p>
@@ -84,7 +86,7 @@ const Contact = () => {
                   <label className="fn__checkbox">
                     <input type="checkbox" />
                     <span className="fn__checkmark">
-                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
+                      <Image src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                     <p>
                       I’m okay with getting emails and having that activity
