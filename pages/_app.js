@@ -6,13 +6,13 @@ import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-            const loader = document.getElementById('loader');
-        if (loader)
-            loader.style.display = 'none';
-    }
-}, []);
+//   useEffect(() => {
+//     if (typeof window !== 'undefined') {
+//             const loader = document.getElementById('loader');
+//         if (loader)
+//             loader.style.display = 'none';
+//     }
+// }, []);
 
   return (
     <Provider store={store}>
