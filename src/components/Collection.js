@@ -151,7 +151,7 @@ const Collection = () => {
         </div>
         <div className="fn_cs_desc">
           <p>
-          With Solasta, you can expect a dynamic and engaging event that will leave you feeling inspired and empowered. From keynote speakers to interactive workshops and networking opportunities, Solasta has something for everyone. You'll have the chance to learn from experts in your field, connect with peers, and explore new ideas and opportunities.
+          With Solasta, you can expect a dynamic and engaging event that will leave you feeling inspired and empowered. From keynote speakers to interactive workshops and networking opportunities, Solasta has something for everyone. You&apos;ll have the chance to learn from experts in your field, connect with peers, and explore new ideas and opportunities.
           </p>
           <Link href="/events">
             <a className="metaportal_fn_button">

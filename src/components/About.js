@@ -152,7 +152,7 @@ const About = () => {
                   <div className="item">
                     <div className="item_in">
                       <h3 className="fn__gradient_title">04</h3>
-                      <p>Receive Your NFT’s</p>
+                      <p>Receive Your NFT&apos;s</p>
                     </div>
                   </div>
                 </li>
@@ -233,13 +233,13 @@ export const About2 = () => (
           </div>
           <div className="desc">
             <p>
-            It is my pleasure to announce the upcoming college fest, and we are excited to invite you to participate in the event. As the faculty coordinator for this year's fest, I want to encourage all of you to showcase your talents, creativity, and passion for different activities.
+            It is my pleasure to announce the upcoming college fest, and we are excited to invite you to participate in the event. As the faculty coordinator for this year&apos;s fest, I want to encourage all of you to showcase your talents, creativity, and passion for different activities.
 
                 The fest is a great platform to showcase your skills, compete with other students, and have fun with your peers. It is a perfect opportunity to explore new interests and build lasting relationships with other students.
 
                 We are planning to organize a variety of events, including cultural, sports, and technical competitions. We will also have guest lectures, workshops, and interactive sessions to provide you with an enriching experience.
 
-                We invite you to be a part of this year's fest and contribute to making it a grand success. We also request you to spread the word and encourage your fellow students to participate and make the most of this fantastic opportunity.
+                We invite you to be a part of this year&apos;s fest and contribute to making it a grand success. We also request you to spread the word and encourage your fellow students to participate and make the most of this fantastic opportunity.
                 Looking forward to seeing you all at the fest!
             </p>
           </div>
