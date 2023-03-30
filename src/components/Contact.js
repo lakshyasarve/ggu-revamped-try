@@ -89,7 +89,7 @@ const Contact = () => {
                       <Image src="/svg/checked.svg" alt="" className="fn__svg" />
                     </span>
                     <p>
-                      I’m okay with getting emails and having that activity
+                      I&apos;m okay with getting emails and having that activity
                       tracked to improve my experience.
                     </p>
                   </label>
